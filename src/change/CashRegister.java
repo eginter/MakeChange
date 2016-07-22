@@ -41,22 +41,22 @@ public class CashRegister {
 
 		} else {
 			float change = (tendered - cost);
-			if (change > 20) {
+			if (change >= 20) {
 				int twentyDollarBill = (int) (change / 20);
 				change = change % 20;
 				System.out.println("twenties: " + twentyDollarBill);
 			}
-			if (change > 10) {
+			if (change >= 10) {
 				int tenDollarBill = (int) (change / 10);
 				change = change % 10;
 				System.out.println("tens: " + tenDollarBill);
 			}
-			if (change > 5) {
+			if (change >= 5) {
 				int fiveDollarBill = (int) (change / 5);
 				change = change % 5;
 				System.out.println("fives: " + fiveDollarBill);
 			}
-			if (change > 1) {
+			if (change >= 1) {
 				int oneDollarBill = (int) (change / 1);
 				change = change % 1;
 				System.out.println("ones: " + oneDollarBill);
