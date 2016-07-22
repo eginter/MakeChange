@@ -2,8 +2,6 @@ package change;
 
 import java.util.Scanner;
 
-//
-
 public class CashRegister {
 	public static void main(String[] args) {
 		// User Story #1
