@@ -69,13 +69,13 @@ public class CashRegister {
 					System.out.println("Quarters: " + quarters);
 
 				}
-				if (change > 10) {
+				if (change >= 10) {
 					int dimes = (int) (change / 10);
 					change = change % 10;
 					System.out.println("Dimes: " + dimes);
 
 				}
-				if (change > 5) {
+				if (change >= 5) {
 					int nickles = (int) (change / 5);
 					change = change % 5;
 					System.out.println("Nickles: " + nickles);
